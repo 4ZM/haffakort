@@ -23,13 +23,13 @@
     },
     "installed_plugins": {
         "com.ionic.keyboard": {
-            "PACKAGE_NAME": "com.ionicframework.haffaapp203680"
+            "PACKAGE_NAME": "com.alltatalla.haffakort"
         },
         "org.apache.cordova.console": {
-            "PACKAGE_NAME": "com.ionicframework.haffaapp203680"
+            "PACKAGE_NAME": "com.alltatalla.haffakort"
         },
         "org.apache.cordova.device": {
-            "PACKAGE_NAME": "com.ionicframework.haffaapp203680"
+            "PACKAGE_NAME": "com.alltatalla.haffakort"
         }
     },
     "dependent_plugins": {}
