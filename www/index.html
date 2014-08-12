@@ -3,32 +3,64 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title></title>
-
+    <title>Haffakort</title>
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
-    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
-    <link href="css/ionic.app.css" rel="stylesheet">
-    -->
-
-    <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
-
-    <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
-
-    <!-- your app's js -->
     <script src="js/app.js"></script>
   </head>
-  <body ng-app="starter">
+  <body ng-app="haffa">
+    <ion-view>
+      <ion-slide-box show-pager="true">
 
-    <ion-pane>
-      <ion-header-bar class="bar-stable">
-        <h1 class="title">Ionic Blank Starter</h1>
-      </ion-header-bar>
-      <ion-content>
-      </ion-content>
-    </ion-pane>
+        <ion-slide>
+          <div class="box green">
+            <h2 class="green text-center">Anhållning &amp; häktning</h2>
+
+            <p>Är du intagen till förhör får polisen hålla kvar dig i
+              högst 6 timmar. Är du misstänkt för ett brott kan du
+              hållas ytterligare 6 timmar. Är du under 15 år gäller
+              högst 3 resp. 6 timmar. Därefter måste du släppas eller
+              anhållas.
+            </p>
+            <p>
+              Som anhållen eller misstänkt för ett brott som
+              ger minst 6 månader i fängelse har du alltid rätt till
+              offentlig försvarare. Begär det direkt.
+            </p>
+            <p>
+              Anhållen kan du vara som längst 4 dygn. Därefter måste du
+              släppas eller häktas. Häktad kan man vara i princip hur
+              länge som helst, med ny häktningsförhandling varannan
+              vecka. Blir du anhållen eller häktad, begär att få läsa
+              Lagen om behandling av häktade och anhållna.
+            </p>
+          </div>
+        </ion-slide>
+
+        <ion-slide>
+          <div class="box pink">
+            <h2 class="pink text-center">Förhör</h2>
+            <p>
+              Vid förhör får förhörsledaren inte använda sig av
+              lögner, löften, hot eller tvång. Den förhörde har rätt
+              till sedvanliga måltider och nödvändig vila. Du har rätt
+              att ta med dig ett förhörsvittne (t.ex. en kamrat eller
+              släkting) om detta kan ske utan att utredningen skadas.
+            </p>
+            <p>
+              Du behöver inte uppge annat än namn, personnummer och
+              adress under förhör. För att inte göra det lättare för
+              polisen att sätta dit dig eller dina kamrater är det
+              alltid bäst att svara "ingen kommentar" på alla
+              frågor. Om du struntar i att komma på ett förhör du
+              blivit kallad till kan polisen hämta dig. Det är dock
+              inget brott att utebli från förhör.
+            </p>
+          </div>
+        </ion-slide>
+      </ion-slide-box>
+    </ion-view>
   </body>
 </html>

@@ -1,1 +1,26 @@
-/* Empty. Add your own CSS if you like */
+
+.slider {
+    height: 100%;
+}
+
+.slider-slide {
+}
+
+.green {
+    color: #111;
+    background-color: #8acab8;
+}
+
+.pink {
+    color: #eee;
+    background-color: #e83d44;
+}
+
+.box {
+    height: 100%;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+}
+
