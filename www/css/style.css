@@ -24,3 +24,10 @@
     padding-top: 20px;
 }
 
+.whistle {
+    height: 20%;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
