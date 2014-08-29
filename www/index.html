@@ -6,46 +6,40 @@
     <title>Haffakort</title>
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
     <script src="cordova.js"></script>
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/angular-translate/angular-translate.js"></script>
     <script src="js/app.js"></script>
   </head>
   <body ng-app="haffa">
-    <ion-view>
+    <ion-view ng-controller="HaffaCtrl">
       <ion-slide-box show-pager="true" does-continue="true">
 
         <ion-slide>
           <div class="box pink">
             <img class="whistle" src="img/whistle.png" />
-            <h1 class="pink text-center">HAFFAKORT</h1>
-            <h3 class="pink text-center">Dina rättigheter</h3>
-            <h3 class="pink text-center">&ndash; när polisen kommer</h3>
+            <h1 class="pink text-center">{{'TITLE' | translate}}</h1>
+            <h3 class="pink text-center">{{'SUBTITLE-1' | translate}}</h3>
+            <h3 class="pink text-center">{{'SUBTITLE-2' | translate}}</h3>
+
+            <br />
+
+            <div class="pink text-center">
+              <span ng-click="changeLanguage('se')" ng-class="{'text-bold': key === 'se'}">se</span>
+              |
+              <span ng-click="changeLanguage('en')" ng-class="{'text-bold': key === 'en'}">en</span>
+            </div>
+
           </div>
         </ion-slide>
 
         <ion-slide>
           <div class="box green">
-            <h2 class="green text-center">Allmänna tips</h2>
-            <p>
-              Det är bra att ha pengar, ID och klocka på sig om man
-              blir gripen. Lämna adressböcker och liknande
-              hemma. Kom ihåg att ha pin-kod på mobiltelefonen och att
-              bilder från din kamera kan användas för att identifiera
-              dina kamrater.
-            </p>
-            <p>
-              Du behöver inte svara på frågor som polisen ställer,
-              varken som kallprat eller i förhör. Låt polisen bevisa
-              din skuld och neka alltid till alla anklagelser. Peka
-              aldrig ut någon kamrat som ansvarig för en aktion. Den
-              personen riskerar att betraktas som anstiftare.
-            </p>
-            <p>
-              Bli inte förvånad om polisen ljuger eller agerar utanför
-              sina befogenheter. Det brukar de göra. Fota och filma
-              övergrepp, speciellt polisernas hjälmnummer och
-              ansikten.
-              </p>
+            <h2 class="green text-center">{{'MISC.TITLE' | translate}}</h2>
+            <p>{{'MISC.PAR-1' | translate}}</p>
+            <p>{{'MISC.PAR-2' | translate}}</p>
+            <p>{{'MISC.PAR-3' | translate}}</p>
           </div>
         </ion-slide>
 
