@@ -52,7 +52,21 @@ haffa.config(function ($translateProvider) {
     'PL24.TRANSGRESSION': 'Om du försöker ta dig in på området ändå kan polisen avlägsna dig och ditt försök kan också vara brottsligt (ohörsamhet mot ordningsmakten).',
 
     'DISGUISE.TITLE': 'Maskering',
-    'DISGUISE': 'Maskering är att täcka ansiktet med syfte att försvåra identifiering. Det finns ett förbud mot maskering men det gäller bara då det har, eller precis håller på att uppstå en ordningsstörning i en demonstration eller folksamling på allmän plats. Polisen skall uppge när förbudet har börjat gälla. Det är inte olagligt att bara ha maskering med sig.'
+    'DISGUISE': 'Maskering är att täcka ansiktet med syfte att försvåra identifiering. Det finns ett förbud mot maskering men det gäller bara då det har, eller precis håller på att uppstå en ordningsstörning i en demonstration eller folksamling på allmän plats. Polisen skall uppge när förbudet har börjat gälla. Det är inte olagligt att bara ha maskering med sig.',
+
+    'QUESTIONING.TITLE': 'Förhör',
+    'QUESTIONING.PAR-1': 'Vid förhör får förhörsledaren inte använda sig av lögner, löften, hot eller tvång. Den förhörde har rätt till sedvanliga måltider och nödvändig vila. Du har rätt att ta med dig ett förhörsvittne (tex en kamrat eller släkting) om detta kan ske utan att utredningen skadas.',
+    'QUESTIONING.PAR-2': 'Du behöver inte uppge annat än namn, personnummer och adress under förhör. För att inte göra det lättare för polisen att sätta dit dig eller dina kamrater är det alltid bäst att svara "ingen kommentar" på alla frågor. Om du struntar i att komma på ett förhör du blivit kallad till kan polisen hämta dig. Det är dock inget brott att utebli från förhör.',
+
+    'ARREST.TITLE': 'Anhållande & häktning',
+    'ARREST.QUESTIONING': 'Är du intagen till förhör får polisen hålla kvar dig i högst 6 timmar. Är du misstänkt för ett brott kan du hållas ytterligare 6 timmar. Är du under 15 år gäller högst 3 resp. 6 timmar. Därefter måste du släppas eller anhållas.',
+    'ARREST.ATTORNEY': 'Som anhållen eller misstänkt för ett brott som ger minst 6 månader i fängelse har du alltid rätt till offentlig försvarare. Begär det direkt.',
+    'ARREST.TIMES': 'Anhållen kan du vara som längst 4 dygn. Därefter måste du släppas eller häktas. Häktad kan man vara i princip hur länge som helst. Blir du anhållen eller häktad, begär att få läsa Lagen om behandling av häktade och anhållna.',
+
+    'ABOUT.TITLE': 'Om haffa-appen',
+    'ABOUT.WHO?': 'Vi i förbundet Allt åt alla har gjort den här appen och vi hoppas att du får nytta av den. Texten är en bearbetning av tidigare haffakort från Vänsterjuristerna.',
+    'ABOUT.BITE': 'Kom ihåg att lagen skrivs av människor med makt, vars intressen sällan sammanfaller med dina. Polisen är till för att skydda dem, inte dig.',
+
   });
 
   $translateProvider.translations('en', {
