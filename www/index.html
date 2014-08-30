@@ -26,9 +26,13 @@
             <br />
 
             <div class="pink text-center">
-              <span ng-click="changeLanguage('se')" ng-class="{'text-bold': key === 'se'}">se</span>
+              <span ng-click="changeLanguage('se')" ng-class="{'text-bold': key === 'se'}">
+                se
+              </span>
               |
-              <span ng-click="changeLanguage('en')" ng-class="{'text-bold': key === 'en'}">en</span>
+              <span ng-click="changeLanguage('en')" ng-class="{'text-bold': key === 'en'}">
+                en
+              </span>
             </div>
 
           </div>
@@ -45,81 +49,45 @@
 
         <ion-slide>
           <div class="box pink">
-            <h2 class="pink text-center">Störande av den allmänna ordningen</h2>
+            <h2 class="pink text-center">{{'UNORDERLY.TITLE' | translate}}</h2>
+            <p>{{'UNORDERLY.PRE' | translate}}</p>
             <p>
-              Du har enligt grundlagen rätt att demonstrera och utöva
-              mötes- och yttrande-frihet. Det gäller även
-              motdemonstrationer. Om aktiviteterna anses störande av
-              den allmänna ordningen (eller hotar att bli det) kan
-              polisen ingripa på följande vis:
+              <b>{{'UNORDERLY.DISMISS.SUBTITLE' | translate}}</b>
+              {{'UNORDERLY.DISMISS' | translate}}
             </p>
             <p>
-              <b>Avvisa:</b> Polisen beordrar dig att lämna platsen
-              eller ger inte tillträde till en viss plats (PL13).
-            </p>
-            <p>
-              <b>Avlägsna:</b> Polisen för bort dig handgripligen,
-              kortvarigt och en kort sträcka. Polisen får visitera dig
-              för att leta efter vapen eller ta reda på vem du är
-              (PL13)
+              <b>{{'UNORDERLY.REMOVE.SUBTITLE' | translate}}</b>
+              {{'UNORDERLY.REMOVE' | translate}}
             </p>
           </div>
         </ion-slide>
 
         <ion-slide>
           <div class="box pink">
-            <h2 class="pink text-center">Störande (forts.)</h2>
+            <h2 class="pink text-center">{{'UNORDERLY-2.TITLE' | translate}}</h2>
             <p>
-              <b>Omhänderta:</b> Polisen för bort dig till en
-              polisstation eller till ditt hem. Detta kan de göra ifall de
-              anser att avvisa eller avlägsna inte är tillräckligt
-              (PL13). Du har alltid rätt att få veta varför du blir
-              omhändertagen (PL15). Vid omhändertagande enligt PL13
-              får du sitta max 6 timmar, men skall bli släppt direkt
-              efter förhör (PL16).
+              <b>{{'UNORDERLY-2.DETAIN.SUBTITLE' | translate}}</b>
+              {{'UNORDERLY-2.DETAIN' | translate}}
             </p>
             <p>
-              <b>Bussning:</b> Om en folkmassa stör den allmänna
-              ordningen kan polisen göra ett <em>utvidgat
-                avlägsnande</em> (PL13c). Då samlar polisen ihop en hel
-              grupp personer och kör iväg er i buss, ofta långt
-              bort. Polisen måste släppa er två timmar efter att ni
-              frihetsberövats.
+              <b>{{'UNORDERLY-2.MASSREMOVAL.SUBTITLE' | translate}}</b>
+              {{'UNORDERLY-2.MASSREMOVAL' | translate}}
             </p>
           </div>
         </ion-slide>
 
         <ion-slide>
           <div class="box green">
-            <h2 class="green text-center">PL24 område</h2>
-            <p>
-              Polisen kan avgränsa ett område och hindra folk från att
-              komma in där, eller ställa upp särskilda villkor för att
-              en skall få komma in på området. Ett sådant villkor kan
-              vara att du måste identifiera dig. Polisen kan göra ett
-              PL24-område kring ex. en demonstration som de tror
-              kommer att bli attackerad.
-            </p>
-            <p>
-              Om du försöker ta dig in på området ändå kan polisen
-              avlägsna dig och ditt försök kan också vara brottsligt
-              (ohörsamhet mot ordningsmakten).
-            </p>
+            <h2 class="green text-center">{{'PL24.TITLE' | translate}}</h2>
+            <p>{{'PL24.WHAT?' | translate}}</p>
+            <p>{{'PL24.TRANSGRESSION' | translate}}</p>
           </div>
         </ion-slide>
 
         <ion-slide>
           <div class="box pink">
-            <h2 class="pink text-center">Maskering</h2>
-            <p>
-              Maskering är att täcka ansiktet med syfte att försvåra
-              identifiering. Det finns ett förbud mot maskering men
-              det gäller bara då det har, eller precis håller på att
-              uppstå en ordningsstörning i en demonstration eller
-              folksamling på allmän plats. Polisen skall uppge när
-              förbudet har börjat gälla. Det är inte olagligt att bara
-              ha maskering med sig.
-            </p>
+            <h2 class="pink text-center">{{'DISGUISE.TITLE' | translate}}</h2>
+            <p>{{'DISGUISE' | translate}}</p>
           </div>
         </ion-slide>
 
