@@ -55,7 +55,7 @@ haffa.config(function ($translateProvider) {
     'DISGUISE': 'Maskering är att täcka ansiktet med syfte att försvåra identifiering. Det finns ett förbud mot maskering men det gäller bara då det har, eller precis håller på att uppstå en ordningsstörning i en demonstration eller folksamling på allmän plats. Polisen skall uppge när förbudet har börjat gälla. Det är inte olagligt att bara ha maskering med sig.',
 
     'QUESTIONING.TITLE': 'Förhör',
-    'QUESTIONING.PAR-1': 'Vid förhör får förhörsledaren inte använda sig av lögner, löften, hot eller tvång. Den förhörde har rätt till sedvanliga måltider och nödvändig vila. Du har rätt att ta med dig ett förhörsvittne (tex en kamrat eller släkting) om detta kan ske utan att utredningen skadas.',
+    'QUESTIONING.PAR-1': 'Vid förhör får förhörsledaren inte använda sig av lögner, löften, hot eller tvång. Den förhörde har rätt till sedvanliga måltider och nödvändig vila. Alternativ kost ska erbjudas den som är vegetarian eller har särskild kost pga religion. Du har rätt att ta med dig ett förhörsvittne (tex en kamrat eller släkting) om detta kan ske utan att utredningen skadas.',
     'QUESTIONING.PAR-2': 'Du behöver inte uppge annat än namn, personnummer och adress under förhör. För att inte göra det lättare för polisen att sätta dit dig eller dina kamrater är det alltid bäst att svara "ingen kommentar" på alla frågor. Om du struntar i att komma på ett förhör du blivit kallad till kan polisen hämta dig. Det är dock inget brott att utebli från förhör.',
 
     'ARREST.TITLE': 'Anhållande & häktning',
@@ -103,7 +103,7 @@ haffa.config(function ($translateProvider) {
     'DISGUISE': 'In Sweden you are generally allowed to cover your face to prevent being identified. However, if a protest or crowd acts disorderly, or is about to start acting disorderly, you are no longer allowed to cover your face. The police must inform the crowd of this new condition. Simply carrying around stuff to cover your face with is never illegal.',
 
     'QUESTIONING.TITLE': 'Questioning',
-    'QUESTIONING.PAR-1': 'The police questioning you can not lie, make promises, threats or use force. You have the right to get food and reasonable periods of rest. You have the right to bring a friend or relative as an interrogation witness if it won\'t hurt the investigation.',
+    'QUESTIONING.PAR-1': 'The police questioning you can not lie, make promises, threats or use force. You have the right to get food (also vegetarian if requested) and reasonable periods of rest. You have the right to bring a friend or relative as an interrogation witness if it won\'t hurt the investigation.',
     'QUESTIONING.PAR-2': 'You only have to state your name, your personal identity number (if you have one) and current address. Always answer "no comment" to any other questions to protect yourself and your friends. If you don\'t show up for an interrogation that you have been summoned to the police might come to pick you up, but it\'s not a crime.',
 
     'ARREST.TITLE': 'Arrest & Remand',
