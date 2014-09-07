@@ -29,7 +29,7 @@ haffa.config(function ($translateProvider) {
 
     'MISC.TITLE': 'Allmänna tips',
 
-    'MISC.PAR-1': 'Det är bra att ha pengar, ID och klocka på sig om man blir gripen. Lämna adressböcker och liknande hemma. Kom ihåg att ha pin-kod på mobiltelefonen och att bilder från din kamera kan användas för att identifiera dina kamrater.',
+    'MISC.PAR-1': 'Det är bra att ha pengar och klocka på sig om man blir gripen. Lämna adressböcker och liknande hemma. Kom ihåg att ha pin-kod på mobiltelefonen och att bilder från din kamera kan användas för att identifiera dina kamrater.',
 
     'MISC.PAR-2': 'Du behöver inte svara på frågor som polisen ställer, varken som kallprat eller i förhör. Låt polisen bevisa din skuld och neka alltid till alla anklagelser. Peka aldrig ut någon kamrat som ansvarig för en aktion. Den personen riskerar att betraktas som anstiftare.',
 
@@ -56,7 +56,7 @@ haffa.config(function ($translateProvider) {
 
     'QUESTIONING.TITLE': 'Förhör',
     'QUESTIONING.PAR-1': 'Vid förhör får förhörsledaren inte använda sig av lögner, löften, hot eller tvång. Den förhörde har rätt till sedvanliga måltider och nödvändig vila. Alternativ kost ska erbjudas den som är vegetarian eller har särskild kost pga religion. Du har rätt att ta med dig ett förhörsvittne (tex en kamrat eller släkting) om detta kan ske utan att utredningen skadas.',
-    'QUESTIONING.PAR-2': 'Du behöver inte uppge annat än namn, personnummer och adress under förhör. För att inte göra det lättare för polisen att sätta dit dig eller dina kamrater är det alltid bäst att svara "ingen kommentar" på alla frågor. Om du struntar i att komma på ett förhör du blivit kallad till kan polisen hämta dig. Det är dock inget brott att utebli från förhör.',
+    'QUESTIONING.PAR-2': 'Du behöver inte uppge annat än namn, personnummer och folkbokföringsadress under förhör. För att inte göra det lättare för polisen att sätta dit dig eller dina kamrater är det alltid bäst att svara "ingen kommentar" på alla frågor. Om du struntar i att komma på ett förhör du blivit kallad till kan polisen hämta dig. Det är dock inget brott att utebli från förhör.',
 
     'ARREST.TITLE': 'Anhållande & häktning',
     'ARREST.QUESTIONING': 'Är du intagen till förhör får polisen hålla kvar dig i högst 6 timmar. Är du misstänkt för ett brott kan du hållas ytterligare 6 timmar. Är du under 15 år gäller högst 3 resp. 6 timmar. Därefter måste du släppas eller anhållas.',
@@ -76,7 +76,7 @@ haffa.config(function ($translateProvider) {
 
     'MISC.TITLE': 'General Advice',
 
-    'MISC.PAR-1': 'Bring some money, your ID and a watch to protests where you risk getting arrested. Leave address books at home. Set a PIN-code on your phone and remember that if you take pictures, they can be used to identify your friends.',
+    'MISC.PAR-1': 'Bring some money and a watch to protests where you risk getting arrested. Leave address books at home. Set a PIN-code on your phone and remember that if you take pictures, they can be used to identify your friends.',
 
     'MISC.PAR-2': 'You don\'t have to answer any questions asked by the police. Let them prove your guilt and always deny all accusations. In particular, don\'t tell the police who\'s \"in charge\" of a protest, they could be charged with incitement.',
 
@@ -104,7 +104,7 @@ haffa.config(function ($translateProvider) {
 
     'QUESTIONING.TITLE': 'Questioning',
     'QUESTIONING.PAR-1': 'The police questioning you can not lie, make promises, threats or use force. You have the right to get food (also vegetarian if requested) and reasonable periods of rest. You have the right to bring a friend or relative as an interrogation witness if it won\'t hurt the investigation.',
-    'QUESTIONING.PAR-2': 'You only have to state your name, your personal identity number (if you have one) and current address. Always answer "no comment" to any other questions to protect yourself and your friends. If you don\'t show up for an interrogation that you have been summoned to the police might come to pick you up, but it\'s not a crime.',
+    'QUESTIONING.PAR-2': 'You only have to state your name, your personal identity number (if you have one) and place of residence. Always answer "no comment" to any other questions to protect yourself and your friends. If you don\'t show up for an interrogation that you have been summoned to the police might come to pick you up, but it\'s not a crime.',
 
     'ARREST.TITLE': 'Arrest & Remand',
     'ARREST.QUESTIONING': 'If you are held for questioning the police must release you after 6 hours. If you are suspected of a crime, they can hold you for another 6 hours. If you are younger than 15, the limits are 3 and 6 hours. After this period they must arrest you or let you go.',
